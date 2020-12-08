@@ -33,5 +33,6 @@
   <modules>
   <module>test</module>
   <module>test01</module>
+  <module>parksystem</module>
   </modules>
 </project>

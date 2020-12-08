@@ -1,0 +1,18 @@
+package parksystem3;
+
+public class ParkApp {
+
+	public static void main(String[] args) {
+		IParkable parkable = new Bus(); // 부모를 레퍼런싱 해야함.
+		ParkSystem3.park(parkable);
+		
+		parkable = new SportsCar();
+		ParkSystem3.park(parkable);
+		
+		parkable = new Taxi();
+		ParkSystem3.park(parkable);
+		
+		parkable = new Airplane();
+		ParkSystem3.park(parkable);
+	}
+}
