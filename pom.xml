@@ -31,8 +31,11 @@
 	</build>
 				
   <modules>
-  <module>test</module>
-  <module>test01</module>
   <module>parksystem</module>
+  <module>practice01</module>
+  <module>practice02</module>
+  <module>practice03</module>
+  <module>practice05</module>
+  <module>practice04</module>
   </modules>
 </project>
