@@ -38,5 +38,6 @@
   <module>practice05</module>
   <module>practice04</module>
   <module>java-oop</module>
+  <module>io</module>
   </modules>
 </project>
