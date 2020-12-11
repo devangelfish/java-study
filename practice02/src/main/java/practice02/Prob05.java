@@ -12,24 +12,29 @@ public class Prob05 {
 
 		int IValue = Integer.parseInt(tokens[0]);
 		int rValue = Integer.parseInt(tokens[2]);
-		String operator = tokens[2];
+		String operator = tokens[1];
 
 		switch (operator) {
 		case "+": {
+			System.out.println(IValue + rValue);
 			break;
 		}
 		case "-": {
+			System.out.println(IValue - rValue);
 			break;
 		}
 		case "*": {
+			System.out.println(IValue * rValue);
 			break;
 		}
 		case "/": {
+			System.out.println(IValue / rValue);
 			break;
 		}
 		default: {
 			System.out.println("지원하지 않는 계산입니다.");
 		}
 		}
+		scanner.close();
 	}
 }
