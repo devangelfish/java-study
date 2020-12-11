@@ -9,10 +9,10 @@ public class Prob03 {
 		System.out.println(s);
 
 		System.out.println("사각형  r의 넓이는" + r.square());
-		System.out.println(" 사각형 s의 넚이는" + s.square());
+		System.out.println("사각형 s의 넚이는" + s.square());
 
 		r.set(1, 1, 2, 3);
-		System.out.println(r); // "Rectangle(x1=1, y2=1, x2=2, y2=3)"
+		System.out.println(r); // "Rectangle(x1=1, y1=1, x2=2, y2=3)"
 
 		if (r.equals(s)) {
 			System.out.println("두 사각형은 같습니다");
