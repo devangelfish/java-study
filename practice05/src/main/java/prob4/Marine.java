@@ -1,6 +1,6 @@
 package prob4;
 
-public class Marine { // 보병
+public class Marine extends Unit { // 보병
 	
 	int x, y; // 현재 위치
 	
