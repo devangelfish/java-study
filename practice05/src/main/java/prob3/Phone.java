@@ -2,7 +2,7 @@ package prob3;
 
 public class Phone {
 	
-	public void execute( String function ) {
+	public void execute(String function) {
 		call();
 	}
 	
