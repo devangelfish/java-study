@@ -1,19 +1,18 @@
 package prob5;
 
 public class Base {
-	public void service(String state){
-		if(state.equals("³·"))
+	public void service(String state) {
+		if(state.equals("ë‚®"))
 			day();
 		else
-			night();
-			
+			night();			
 	}
 	
-	public void day(){
-		System.out.println("³·");
+	public void day() {
+		System.out.println("ë‚®");
 	}
 	
-	public void night(){
+	public void night() {
 		System.out.println("night");
 	}
 }
