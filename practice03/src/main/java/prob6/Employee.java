@@ -13,8 +13,6 @@ public class Employee {
 		this.name = name;
 		this.salary = salary;
 	}
-	
-	
 
 	public String getName() {
 		return name;
@@ -33,6 +31,6 @@ public class Employee {
 	}
 
 	public void getInformation() {
-		System.out.printf("¿Ã∏ß: %s   ø¨∫¿: %d\n", name, salary);
+		System.out.printf("Ïù¥Î¶Ñ: %s   Ïó∞Î¥â: %d\n", name, salary);
 	}
 }
