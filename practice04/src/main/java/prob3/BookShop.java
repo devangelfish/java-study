@@ -18,10 +18,21 @@ public class BookShop {
 		Scanner key = new Scanner(System.in);
 		System.out.print("대여 하고 싶은 책의 번호를 입력하세요.:");
 		int num = key.nextInt();
-		//(1)여기에 입력받은 책번호와 일치하는 책의 rent를 호출하는 코드를 작성하세요.
+
+		for(Book book : books) {
+			if(book.getBookNum() == num) {
+				book.rent();
+			}
+		}
 
 		System.out.println("*****도서 정보 출력하기******");
 		displayBookInfo(books);
+	}
+	
+	public static void displayBookInfo(Book[] books) {
+		for(Book book : books) {
+			book.print();
+		}
 	}
 
 }
