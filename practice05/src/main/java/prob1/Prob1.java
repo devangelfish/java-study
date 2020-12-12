@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class Prob1 {
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner( System.in );
-		System.out.print( "¹®ÀÚ¿­À» ÀÔ·ÂÇÏ¼¼¿ä:" );
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("ë¬¸ìì—´ì„ ì…ë ¥í•˜ì„¸ìš”. : ");
 		
-		String s = scanner.next();
+		String s = scanner.nextLine().toUpperCase();
 		
-		/*  ÀÌ°÷¿¡ ÇÁ·Î±×·¥À» ¿Ï¼ºÇÏ½Ê½Ã¿À. */
-		
-		
-		
-		
+		String scanString = "";
+		for(int i = 0; i < s.length(); i++) {
+			scanString += s.charAt(i);
+			System.out.println(scanString);
+		}
+		scanner.close();
 	}
-
 }
