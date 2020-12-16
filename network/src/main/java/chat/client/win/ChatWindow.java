@@ -46,6 +46,8 @@ public class ChatWindow {
 	}
 
 	public void show() {
+		boolean run = true;
+		
 		// Button
 		buttonSend.setBackground(Color.GRAY);
 		buttonSend.setForeground(Color.WHITE);
@@ -108,7 +110,6 @@ public class ChatWindow {
 
 			Thread chatClientThread = new ChatClientThread(br);
 			chatClientThread.start();
-			
 			
 			while(true) {
 				if(!chatClientThread.isAlive()) {
